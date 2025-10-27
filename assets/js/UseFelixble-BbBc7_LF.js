@@ -1,0 +1,1 @@
+function n(){return{flexible:function(n,e){const t=n.documentElement,i="orientationchange"in e?"orientationchange":"resize",o=function(){const n=t.clientWidth/24;n&&(t.style.fontSize=n+"px")};o(),n.addEventListener&&(e.addEventListener(i,o,!1),n.addEventListener("DOMContentLoaded",o,!1))}}}export{n as u};
